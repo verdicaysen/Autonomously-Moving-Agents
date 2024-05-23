@@ -1,0 +1,648 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.SettingsProvider.Editor.csproj": {}
+  },
+  "projects": {
+    "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.Editor.csproj",
+        "projectName": "Unity.VisualScripting.Core.Editor",
+        "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.Editor.csproj",
+        "packagesPath": "/home/verdicaysen/.nuget/packages/",
+        "outputPath": "/home/verdicaysen/Autonomously Moving Agents/Temp/obj/Debug/Unity.VisualScripting.Core.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/verdicaysen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.TestRunner.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.csproj",
+        "projectName": "Unity.VisualScripting.Core",
+        "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.csproj",
+        "packagesPath": "/home/verdicaysen/.nuget/packages/",
+        "outputPath": "/home/verdicaysen/Autonomously Moving Agents/Temp/obj/Debug/Unity.VisualScripting.Core/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/verdicaysen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.Editor.csproj",
+        "projectName": "Unity.VisualScripting.Flow.Editor",
+        "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.Editor.csproj",
+        "packagesPath": "/home/verdicaysen/.nuget/packages/",
+        "outputPath": "/home/verdicaysen/Autonomously Moving Agents/Temp/obj/Debug/Unity.VisualScripting.Flow.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/verdicaysen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.TestRunner.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.csproj",
+        "projectName": "Unity.VisualScripting.Flow",
+        "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.csproj",
+        "packagesPath": "/home/verdicaysen/.nuget/packages/",
+        "outputPath": "/home/verdicaysen/Autonomously Moving Agents/Temp/obj/Debug/Unity.VisualScripting.Flow/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/verdicaysen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.SettingsProvider.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.SettingsProvider.Editor.csproj",
+        "projectName": "Unity.VisualScripting.SettingsProvider.Editor",
+        "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.SettingsProvider.Editor.csproj",
+        "packagesPath": "/home/verdicaysen/.nuget/packages/",
+        "outputPath": "/home/verdicaysen/Autonomously Moving Agents/Temp/obj/Debug/Unity.VisualScripting.SettingsProvider.Editor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/verdicaysen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.State.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.State.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.TestRunner.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.State.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.State.csproj",
+        "projectName": "Unity.VisualScripting.State",
+        "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.State.csproj",
+        "packagesPath": "/home/verdicaysen/.nuget/packages/",
+        "outputPath": "/home/verdicaysen/Autonomously Moving Agents/Temp/obj/Debug/Unity.VisualScripting.State/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/verdicaysen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Core.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.VisualScripting.Flow.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.TestRunner.csproj",
+        "packagesPath": "/home/verdicaysen/.nuget/packages/",
+        "outputPath": "/home/verdicaysen/Autonomously Moving Agents/Temp/obj/Debug/UnityEditor.TestRunner/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/verdicaysen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj",
+        "packagesPath": "/home/verdicaysen/.nuget/packages/",
+        "outputPath": "/home/verdicaysen/Autonomously Moving Agents/Temp/obj/Debug/UnityEditor.UI/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/verdicaysen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.TestRunner.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.TestRunner.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj"
+              },
+              "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj": {
+                "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj",
+        "packagesPath": "/home/verdicaysen/.nuget/packages/",
+        "outputPath": "/home/verdicaysen/Autonomously Moving Agents/Temp/obj/Debug/UnityEngine.TestRunner/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/verdicaysen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj",
+        "packagesPath": "/home/verdicaysen/.nuget/packages/",
+        "outputPath": "/home/verdicaysen/Autonomously Moving Agents/Temp/obj/Debug/UnityEngine.UI/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/verdicaysen/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

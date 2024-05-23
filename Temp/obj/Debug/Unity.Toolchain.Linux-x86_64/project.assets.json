@@ -1,0 +1,205 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Unity.Sysroot.Linux_x86_64/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.SysrootPackage.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Sysroot.Linux_x86_64.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Sysroot.Linux_x86_64.dll": {}
+        }
+      },
+      "Unity.SysrootPackage.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.SysrootPackage.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.SysrootPackage.Editor.dll": {}
+        }
+      },
+      "UnityEditor.TestRunner/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEngine.TestRunner": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnityEditor.TestRunner.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEditor.TestRunner.dll": {}
+        }
+      },
+      "UnityEditor.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnityEditor.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEditor.UI.dll": {}
+        }
+      },
+      "UnityEngine.TestRunner/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/UnityEngine.TestRunner.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEngine.TestRunner.dll": {}
+        }
+      },
+      "UnityEngine.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/UnityEngine.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEngine.UI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Unity.Sysroot.Linux_x86_64/1.0.0": {
+      "type": "project",
+      "path": "Unity.Sysroot.Linux_x86_64.csproj",
+      "msbuildProject": "Unity.Sysroot.Linux_x86_64.csproj"
+    },
+    "Unity.SysrootPackage.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.SysrootPackage.Editor.csproj",
+      "msbuildProject": "Unity.SysrootPackage.Editor.csproj"
+    },
+    "UnityEditor.TestRunner/1.0.0": {
+      "type": "project",
+      "path": "UnityEditor.TestRunner.csproj",
+      "msbuildProject": "UnityEditor.TestRunner.csproj"
+    },
+    "UnityEditor.UI/1.0.0": {
+      "type": "project",
+      "path": "UnityEditor.UI.csproj",
+      "msbuildProject": "UnityEditor.UI.csproj"
+    },
+    "UnityEngine.TestRunner/1.0.0": {
+      "type": "project",
+      "path": "UnityEngine.TestRunner.csproj",
+      "msbuildProject": "UnityEngine.TestRunner.csproj"
+    },
+    "UnityEngine.UI/1.0.0": {
+      "type": "project",
+      "path": "UnityEngine.UI.csproj",
+      "msbuildProject": "UnityEngine.UI.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Unity.Sysroot.Linux_x86_64 >= 1.0.0",
+      "Unity.SysrootPackage.Editor >= 1.0.0",
+      "UnityEditor.TestRunner >= 1.0.0",
+      "UnityEditor.UI >= 1.0.0",
+      "UnityEngine.TestRunner >= 1.0.0",
+      "UnityEngine.UI >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/verdicaysen/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/verdicaysen/Autonomously Moving Agents/Unity.Toolchain.Linux-x86_64.csproj",
+      "projectName": "Unity.Toolchain.Linux-x86_64",
+      "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.Toolchain.Linux-x86_64.csproj",
+      "packagesPath": "/home/verdicaysen/.nuget/packages/",
+      "outputPath": "/home/verdicaysen/Autonomously Moving Agents/Temp/obj/Debug/Unity.Toolchain.Linux-x86_64/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/verdicaysen/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "/home/verdicaysen/Autonomously Moving Agents/Unity.Sysroot.Linux_x86_64.csproj": {
+              "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.Sysroot.Linux_x86_64.csproj"
+            },
+            "/home/verdicaysen/Autonomously Moving Agents/Unity.SysrootPackage.Editor.csproj": {
+              "projectPath": "/home/verdicaysen/Autonomously Moving Agents/Unity.SysrootPackage.Editor.csproj"
+            },
+            "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.TestRunner.csproj": {
+              "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.TestRunner.csproj"
+            },
+            "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj": {
+              "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEditor.UI.csproj"
+            },
+            "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj": {
+              "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.TestRunner.csproj"
+            },
+            "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj": {
+              "projectPath": "/home/verdicaysen/Autonomously Moving Agents/UnityEngine.UI.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
