@@ -25,7 +25,7 @@ public class Bot : MonoBehaviour
         agent.SetDestination(location);    
     }
 
-   
+   //This is a chasing method that will take after the cop.
     void Pursue()
     {
         Vector3 targetDir = agent.transform.position - transform.position;
@@ -42,6 +42,8 @@ public class Bot : MonoBehaviour
         Seek(target.transform.position + target.transform.forward*lookhead);
     }
 
+    //This is a runaway method that will move away from your cops position but with a look ahead component.
+
     void Evade()
     {
         Vector3 targetDir = agent.transform.position - transform.position;
@@ -49,11 +51,14 @@ public class Bot : MonoBehaviour
         Flee(target.transform.position + target.transform.forward*lookhead);
     }
 
+    //The basic movement away from the players location.
     void Flee(Vector3 location)
     {
         Vector3 fleeVector = location - this.transform.position;
         agent.SetDestination(this.transform.position - fleeVector);
     }
+
+    //This is a method that will have the robber hide behind objects.
 
     void Hide()
     {
@@ -74,6 +79,8 @@ public class Bot : MonoBehaviour
 
         Seek(chosenSpot);
     }
+
+    //This is the robber staying closer to the navmesh and collider of an object and move around to get away.
 
     void CleverHide()
     {
@@ -105,6 +112,8 @@ public class Bot : MonoBehaviour
 
     }
 
+
+    //This is a wandering method for letting the robber patrol around in random directions.
     void Wander()
     {
         float wanderRadius = 10;
