@@ -7,6 +7,8 @@ public class Bot : MonoBehaviour
     public GameObject target;
     Drive driveScript;
     Vector3 wanderTarget = Vector3.zero;
+    bool coolDown = false;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -14,10 +16,30 @@ public class Bot : MonoBehaviour
         agent = this.GetComponent<NavMeshAgent>();
     }
 
-     // Update is called once per frame
+     // In this update loop, test to see if you can see the target, and if the target can see you. If it can and you do, hide. 
+     //Otherwise, pursue the target.
     void Update()
     {   
-        CleverHide();
+            if (!coolDown)
+        {
+
+            if(CanSeeTarget() && CanSeeMe())
+            {
+                CleverHide();
+                coolDown = true;
+                Invoke("BehaviourCoolDown", 5);
+            }
+            else
+            
+                Pursue();
+        }  
+        
+    }
+
+    //Lets slow down the behaviour checks.
+    void BehaviourCoolDown()
+    {
+        coolDown = false;
     }
 
     void Seek(Vector3 location)
@@ -28,17 +50,17 @@ public class Bot : MonoBehaviour
    //This is a chasing method that will take after the cop.
     void Pursue()
     {
-        Vector3 targetDir = agent.transform.position - transform.position;
+        Vector3 targetDir = target.transform.position - transform.position;
         float relativeHeading = Vector3.Angle(this.transform.forward, this.transform.TransformVector(target.transform.forward));
         float toTarget = Vector3.Angle(this.transform.forward, this.transform.TransformVector(targetDir));
 
-        if(toTarget > 90 && relativeHeading < 20 ||driveScript.currentSpeed < 0.01f)
+        if((toTarget > 90 && relativeHeading < 20) || target.GetComponent<Drive>().currentSpeed < 0.01f)
         {
             Seek(target.transform.position);
             return;
         }
 
-        float lookhead = targetDir.magnitude/(agent.speed + driveScript.currentSpeed);
+        float lookhead = targetDir.magnitude/(agent.speed + target.GetComponent<Drive>().currentSpeed);
         Seek(target.transform.position + target.transform.forward*lookhead);
     }
 
@@ -110,6 +132,36 @@ public class Bot : MonoBehaviour
 
         Seek(info.point + chosenDirection.normalized * 5);
 
+    }
+
+    //Look around you and if you see the cop remember it.
+    bool CanSeeTarget()
+    {
+        RaycastHit raycastInfo;
+        Vector3 rayToTarget = target.transform.position - this.transform.position;
+        float lookAngle = Vector3.Angle(this.transform.forward, rayToTarget);
+        
+        // If the look angle is less than 60 degrees you should be able to see the target.
+        if(lookAngle < 60 && Physics.Raycast(this.transform.position, rayToTarget, out raycastInfo))
+        {
+            if(raycastInfo.transform.gameObject.tag == "cop")
+            return true;
+        }
+        return false;
+    }
+
+    // Can my enemy see me?
+    bool CanSeeMe()
+    {
+       
+        Vector3 rayToTarget = this.transform.position - target.transform.position;
+        float lookAngle = Vector3.Angle(target.transform.forward, rayToTarget);
+
+        if(lookAngle < 60)
+        {
+            return true;
+        }
+        return false;
     }
 
 
