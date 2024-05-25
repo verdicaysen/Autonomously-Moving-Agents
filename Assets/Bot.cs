@@ -22,8 +22,12 @@ public class Bot : MonoBehaviour
     {   
             if (!coolDown)
         {
+            if(!TargetInRange())
+            {
+                Wander();
+            }
 
-            if(CanSeeTarget() && CanSeeMe())
+            else if(CanSeeTarget() && CanSeeMe())
             {
                 CleverHide();
                 coolDown = true;
@@ -40,6 +44,14 @@ public class Bot : MonoBehaviour
     void BehaviourCoolDown()
     {
         coolDown = false;
+    }
+
+    // Check if the target is within its range.
+    bool TargetInRange()
+    {
+        if(Vector3.Distance(this.transform.position, target.transform.position) < 10)
+           return true;
+        return false;
     }
 
     void Seek(Vector3 location)
